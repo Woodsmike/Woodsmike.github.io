@@ -213,9 +213,9 @@ var settings = {
 
 							// Indicator.
 								$indicator_li
-									.data('Index', i)
+									.data('index', i)
 									.on('click', function() {
-										$this._switchTo($(this).data('Index'), true);
+										$this._switchTo($(this).data('index'), true);
 									});
 
 							// Add to indicators.
